@@ -1,0 +1,57 @@
+body {
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+
+}
+
+h1 {
+    text-align: center;
+    
+
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    position: fixed;
+    width: 20vw;
+    background-color: #192f54;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 50px;
+    flex: 1 0 10%;
+}
+
+.sidebar a {
+    display: block;
+    padding: 25px 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+.sidebar a:hover {
+    color: #C1D0EA;
+    margin-left: 10px;
+    transition: 0.4s;
+
+}
+
+#sidebar-logo {
+    width: 180px;
+    padding-bottom: 20px;
+    margin-top: 0;
+}
+
+.sidebar p {
+    color: white;
+    letter-spacing: 0.1em;
+    bottom: 0;
+    left: 0;
+    padding: 100px 20px;
+
+
+}
