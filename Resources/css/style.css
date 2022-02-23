@@ -12,6 +12,9 @@ body {
 main {
     margin-left: 260px;
     padding-top: 35px;
+    background-color: #F2F7FD ;
+    
+
 }
 
 h1 {
@@ -47,21 +50,12 @@ section p {
     line-height: 1.2;
 }
 
-/* SECTION SPLITTER (NEED TO SORT) 
-
-.border-line {
-    border-bottom: 2px solid red;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-}
-*/
+ /* SECTION 1 LOGOS */
 
 .slack-logo {
     width: 20px;
 }
 
-    
 /* SIDEBAR */
 
 .sidebar {
@@ -124,4 +118,29 @@ section p {
     object-fit: cover;
     object-position: 0% 38%;
     
+}
+.table-container {
+    margin-left: 40px;
+    width: 900px;
+    height: 300px;
+    background-color: lightgray;
+    border-radius: 2px;
+    display: block;
+}
+
+/* TABLES */
+
+table {
+    margin-top: 20px;
+    border: 2px solid red;
+}
+
+th {
+    height: 100px;
+    margin-top: 50px;
+    background-color: #C1D0EA;
+}
+
+#attribute-column {
+    color: red;
 }
