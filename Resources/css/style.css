@@ -24,11 +24,18 @@ h2 {
     color: #192f54;
 }
 
+h3 {
+    font-size: 24px;
+    color: #192f54;
+}
+
 section {
     font-size: 18px;
     display: block;
     padding-bottom: 150px;
-    height: 600px;
+    height: 550px; 
+    width: 1100px;  
+    border-bottom: 2px solid #CCC8C8;
 }
 
 section h1 {
@@ -39,6 +46,16 @@ section p {
     margin-right: 150px;
     line-height: 1.2;
 }
+
+/* SECTION SPLITTER (NEED TO SORT) 
+
+.border-line {
+    border-bottom: 2px solid red;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+*/
 
 .slack-logo {
     width: 20px;
@@ -96,11 +113,15 @@ section p {
 
 /* DESIGN ELEMENTS */
 
-.diamonds-red {
-    transform: rotate(90deg);
+#diamond-red {
+    display: inline;
     top: 0;
     right: 0;
     bottom: 0;
-    float: right;
-    margin-right: 15px;
+    position: absolute;
+    width: 70px;
+    height: 912px;
+    object-fit: cover;
+    object-position: 0% 38%;
+    
 }
