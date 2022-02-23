@@ -5,17 +5,40 @@ body {
 
 }
 
-h1 {
-    text-align: center;
-    
-
+main {
+    margin-left: 260px;
+    padding-top: 35px;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #192f54;
+}
+
+section {
+    font-size: 18px;
+    
+}
+
+section p {
+    margin-right: 150px;
+    line-height: 1.2;
+}
+
+.slack-logo {
+    width: 20px;
+}
+
+    
 /* SIDEBAR */
 
 .sidebar {
     position: fixed;
-    width: 20vw;
+    width: 230px;
     background-color: #192f54;
     top: 0;
     left: 0;
@@ -26,11 +49,12 @@ h1 {
 
 .sidebar a {
     display: block;
-    padding: 25px 20px;
+    padding: 25px 30px;
     font-size: 18px;
     color: white;
     text-decoration: none;
     letter-spacing: 0.1em;
+    cursor: pointer;
 }
 
 .sidebar a:hover {
@@ -43,6 +67,7 @@ h1 {
 #sidebar-logo {
     width: 180px;
     padding-bottom: 20px;
+    padding-left: 15px;
     margin-top: 0;
 }
 
@@ -51,7 +76,9 @@ h1 {
     letter-spacing: 0.1em;
     bottom: 0;
     left: 0;
-    padding: 100px 20px;
+    padding: 75px 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
 
 
 }
