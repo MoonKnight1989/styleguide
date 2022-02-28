@@ -48,6 +48,11 @@ section h1 {
 section p {
     margin-right: 150px;
     line-height: 1.2;
+    margin-left: 25px;
+}
+
+#philosophy {
+    height: auto;
 }
 
  /* SECTION 1 LOGOS */
@@ -120,27 +125,61 @@ section p {
     
 }
 .table-container {
-    margin-left: 40px;
-    width: 900px;
-    height: 300px;
-    background-color: lightgray;
+    margin-left: 70px;
+    width: 820px;
+    height: 450px;
+    background-color: rgba(228, 228, 228, 0.6);
     border-radius: 2px;
     display: block;
+    position: absolute;
 }
 
 /* TABLES */
 
 table {
-    margin-top: 20px;
     border: 2px solid red;
+    width: 800px;
+    margin: 10px;
+    display: inline-block;
+    
 }
 
 th {
-    height: 100px;
+    height: 80px;
     margin-top: 50px;
     background-color: #C1D0EA;
 }
 
 #attribute-column {
     color: red;
+    width: 60px;
+}
+
+.color-container {
+    margin-left: 70px;
+    width: 900px;
+    height: 300px;
+    background-color: rgba(228, 228, 228, 0.6);
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+
+}
+
+.color-container-inner {
+    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 890px;
+    height: 290px;
+    background-color: white;
+    display: inline-block
+}
+
+.color-block {
+    width: 300px;
+    height: 100px;
+    background-color: #192F54;
+    margin: 10px;
+    display: inline-block;
 }
