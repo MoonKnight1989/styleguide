@@ -124,6 +124,9 @@ section p {
     object-position: 0% 38%;
     
 }
+
+/* TABLES */
+
 .table-container {
     margin-left: 70px;
     width: 820px;
@@ -133,8 +136,6 @@ section p {
     display: block;
     position: absolute;
 }
-
-/* TABLES */
 
 table {
     border: 2px solid red;
@@ -155,6 +156,8 @@ th {
     width: 60px;
 }
 
+/* COLOR SECTION */
+
 .color-container {
     margin-left: 70px;
     width: 900px;
@@ -163,7 +166,6 @@ th {
     border-radius: 2px;
     display: block;
     position: absolute;
-
 }
 
 .color-container-inner {
