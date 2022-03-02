@@ -34,7 +34,7 @@ h3 {
 
 section {
     font-size: 18px;
-    display: flexbox;
+    display: block;
     padding-bottom: 150px;
     height: 550px; 
     width: 100%;  
@@ -180,7 +180,6 @@ th {
     background-color: white;
     display: flex;
     justify-content:flex-start;
-    align-items: flex-start;
     flex-wrap: wrap;
 }
 
