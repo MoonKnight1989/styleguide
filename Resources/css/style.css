@@ -2,6 +2,7 @@
 
 /*MAIN CONTENT*/
 
+
 body {
     height: 100vh;
     margin: 0;
@@ -167,6 +168,7 @@ th {
     border-radius: 2px;
     display: flex;
     justify-content: space-evenly ;
+    margin-right: 40px;
 }
 
 .color-container-inner {
@@ -184,7 +186,8 @@ th {
 }
 
 .color-block {
-    width: 400px;
+    max-width: 500px;
+    min-width: 330px;
     height: 90px;
     margin: 10px;
     display: inline-flex;
