@@ -1,12 +1,16 @@
 
 
 /*MAIN CONTENT*/
-
+@font-face {
+    font-family: "Basis Grotesque-Regular";
+    src: url("../../Resources/Basis Grotesque/basis-grotesque-regular.ttf");
+}
 
 body {
     height: 100vh;
     margin: 0;
     background-color: #F2F7FD;
+    font-family: "Basis Grotesque";
 
 }
 
@@ -66,7 +70,7 @@ section p {
 
 .sidebar {
     position: fixed;
-    width: 230px;
+    width: 235px;
     background-color: #192f54;
     top: 0;
     left: 0;
