@@ -119,11 +119,10 @@ section p {
 /* DESIGN ELEMENTS */
 
 #diamond-red {
-    display: inline;
+    display: inline-flex;
     top: 0;
     right: 0;
     bottom: 0;
-    position: absolute;
     width: 70px;
     height: 912px;
     object-fit: cover;
@@ -131,6 +130,25 @@ section p {
     
 }
 
+#blue-circle {
+    display: inline-flex;
+    position: relative;
+    width: 70px;
+    height: 912px;
+    object-fit: cover;
+    overflow: visible;
+    
+}
+
+.right-design {
+    display: inline-flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 70px;
+    flex-wrap: wrap;
+}
 /* TABLES */
 
 .table-container {
